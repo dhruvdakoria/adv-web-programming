@@ -1,0 +1,61 @@
+
+Question 1		30 / 30 points
+Use startcode1.zip as starter code for this assignment.
+
+When the server is running and the user visits http://localhost:3000/ in the browser they should be presented a page with an 800px x 800px Google Map and two buttons above the map: random, clear. (10 marks).
+
+When the user clicks on the random button an AJAX request should take place to the positions route on the server, and markers should be created on the map for the 10 random positions that are returned in the response.  (15 marks)
+
+When the user clicks on the clear button all of the markers on the map should be removed.  (5 marks)
+
+Attach your solution files in a zip file named ajax.zip.  Do not include the node_modules folder in your zip.
+
+VERY IMPORTANT: YOU MUST ATTACH YOUR SOLUTION AS A .ZIP FILE FOR US TO BE ABLE TO MARK IT.
+
+- No text entered -
+ajax.zip (1.92 KB)			
+The correct answer is not displayed for Written Response type questions.
+
+-------------------------------------------------------------------------------------------
+
+
+Question 2		20 / 20 points
+Use sqlitestart.zip for the assignment.  You will find a comment that says // your code goes here.
+
+In this space, using the sqlite package functions, run two SQL statements.
+
+The first SQL statement should change the first name and last name of any employee with a salary of exactly 50000 to be Jon Snow (where Jon is the first name and Snow is the last name). (10 marks)
+
+The second SQL statement should delete any employees with the last name Woods. (10 marks)
+
+The SQL statements should both work even if the contents of the database were to be changed.
+
+Attach your solution files in a zip file named sql.zip.  Do not include the node_modules folder in your zip.
+
+VERY IMPORTANT: YOU MUST ATTACH YOUR SOLUTION AS A .ZIP FILE FOR US TO BE ABLE TO MARK IT.
+
+- No text entered -
+sql.zip (696 Bytes)			
+The correct answer is not displayed for Written Response type questions.
+
+
+-------------------------------------------------------------------------------------------
+
+
+Question 3		50 / 50 points
+Create a website that can be run by opening a file called index.html in the browser (i.e. no backend). 
+
+The website should have a form styled with Twitter Bootstrap.  The form should have three input textboxes and labels for: city, country, colour.  The form should have two buttons: submit and default.  Submit should be styled as a primary button, default should be styled as an info button.  (20 marks)
+
+When the user clicks on the default button, the city, country and colour input textboxes should be populated with the following data respectively: Hamilton, Canada, orange.  (10 marks)
+
+When the user clicks on the submit button, basic form validation should take place with the results reported below the form.  If the contents of the city input textbox are less than 5 characters in length, then the validation message "City input not long enough" should appear in the results.  If the contents of the country input textbox are more than 12 characters in length, then the validation message "Country input is too long" should appear in the results.  If both validation issues are present, then both messages should appear.  If neither validation issue is present, the message "Successful form submission" should appear in the results, and the text color of this message should be set to the same colour as found in the colour input text box (you can assume it's either a basic text color like red, orange, etc, or a color code like #78F45B).   The form results content should reflect the last submission of the form only.  (20 marks)
+
+Attach your solution files as a zip file named form.zip.
+
+VERY IMPORTANT: YOU MUST ATTACH YOUR SOLUTION AS A .ZIP FILE FOR US TO BE ABLE TO MARK IT.
+
+ 
+
+- No text entered -
+form.zip (1.58 KB)			
